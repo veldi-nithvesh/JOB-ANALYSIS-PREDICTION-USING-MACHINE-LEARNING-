@@ -5,6 +5,7 @@ The goal is to forecast important job attributes based on available data, helpin
 The project covers the entire ML pipeline from data preprocessing to model evaluation without using any deep learning methods.
 _______________________________________
 Tools & Technologies Used
+
 •	Python: Core programming language.
 •	Pandas: For data manipulation and preprocessing.
 •	Seaborn / Matplotlib: For data visualization.
@@ -12,12 +13,13 @@ Tools & Technologies Used
 •	XGBoost: For implementing an advanced gradient boosting model.
 ________________________________________
 ## Project Workflow
+
 1.	Data Preprocessing
 o	Loaded structured data related to job profiles.
 o	Handled missing values appropriately.
 o	Encoded categorical variables using label encoding.
 o	Split data into features (X) and target (y) variables.
-2.	Model Building
+3.	Model Building
 o	Trained the following machine learning models:
 o	Decision Tree Classifier
 o	Random Forest Classifier
@@ -26,7 +28,7 @@ o	Evaluated models based on:
 o	Accuracy Score
 o	Confusion Matrix
 o	Classification Report (Precision, Recall, F1-Score)
-3.	Model Evaluation
+4.	Model Evaluation
 o	Compared model performances based on evaluation metrics.
 o	Visualized confusion matrices for better understanding of model predictions.
 ________________________________________
