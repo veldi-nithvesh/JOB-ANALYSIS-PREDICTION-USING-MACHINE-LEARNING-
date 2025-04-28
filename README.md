@@ -3,7 +3,8 @@ Overview
 This project aims to analyze and predict job market trends using classical machine learning algorithms.
 The goal is to forecast important job attributes based on available data, helping job seekers and HR professionals make better decisions.
 The project covers the entire ML pipeline from data preprocessing to model evaluation without using any deep learning methods.
-________________________________________Tools & Technologies Used
+_______________________________________
+Tools & Technologies Used
 •	Python: Core programming language.
 •	Pandas: For data manipulation and preprocessing.
 •	Seaborn / Matplotlib: For data visualization.
