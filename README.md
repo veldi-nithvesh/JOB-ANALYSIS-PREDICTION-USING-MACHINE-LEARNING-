@@ -1,53 +1,45 @@
-# JOB ANALYSIS PREDICTION USING MACHINE LEARNING
-
-## Overview
-This project aims to analyze and predict job market trends and salary outcomes using various machine learning algorithms. The insights provided are valuable for HR professionals and job seekers to forecast the demand for specific job roles and identify the required competencies.
-
-## Tools Used
-- Python: Programming language used for implementing the project.
-- Pandas: Library for data manipulation and analysis.
-- Matplotlib / Seaborn: Libraries for data visualization.
-- Scikit-learn: Library for machine learning algorithms.
-- NLTK / SpaCy: Libraries for natural language processing.
-- XGBoost / Random Forest: Advanced machine learning algorithms used for prediction.
-
+## JOB ANALYSIS PREDICTION USING MACHINE LEARNING
+Overview
+This project aims to analyze and predict job market trends using classical machine learning algorithms.
+The goal is to forecast important job attributes based on available data, helping job seekers and HR professionals make better decisions.
+The project covers the entire ML pipeline from data preprocessing to model evaluation without using any deep learning methods.
+________________________________________Tools & Technologies Used
+•	Python: Core programming language.
+•	Pandas: For data manipulation and preprocessing.
+•	Seaborn / Matplotlib: For data visualization.
+•	Scikit-learn: For building Decision Tree and Random Forest models.  
+•	XGBoost: For implementing an advanced gradient boosting model.
+________________________________________
 ## Project Workflow
-1. Data Collection and Preprocessing: 
-   - Gather structured data (e.g., salary, experience, education level) and unstructured data (e.g., job descriptions, resumes).
-   - Clean the data to handle missing values and normalize it for consistency.
-   - Apply tokenization and other NLP techniques to convert text data into a suitable format.
-
-2. Feature Engineering:
-   - Extract relevant features from both structured and unstructured data.
-   - Use methods like TF-IDF, word embeddings, and named entity recognition (NER) for text features.
-
-3. Model Building:
-   - Implement machine learning algorithms such as Decision Trees, Random Forest, and Linear Regression.
-   - Train the models on a training dataset and evaluate them using a testing set.
-   - Use performance metrics like accuracy, precision, recall, and F1-score for evaluation.
-   - Perform hyperparameter tuning using techniques like grid search or random search.
-
-4. Prediction and Insights:
-   - Integrate the models into a system capable of handling real-time data.
-   - Predict salaries, classify job roles, and identify key skills from new job-related data.
-   - Provide actionable insights to HR professionals and job seekers.
-
-## Getting Started
-1. Clone the Repository:
-   ```bash
+1.	Data Preprocessing
+o	Loaded structured data related to job profiles.
+o	Handled missing values appropriately.
+o	Encoded categorical variables using label encoding.
+o	Split data into features (X) and target (y) variables.
+2.	Model Building
+o	Trained the following machine learning models:
+o	Decision Tree Classifier
+o	Random Forest Classifier
+o	XGBoost Classifier
+o	Evaluated models based on:
+o	Accuracy Score
+o	Confusion Matrix
+o	Classification Report (Precision, Recall, F1-Score)
+3.	Model Evaluation
+o	Compared model performances based on evaluation metrics.
+o	Visualized confusion matrices for better understanding of model predictions.
+________________________________________
+##Getting Started
+1.	Clone the Repository
    git clone <repository_url>
    cd job-analysis-prediction
-   ```
-
-2. Install Dependencies:
-   ```bash
+2.	Install Dependencies
    pip install -r requirements.txt
-   ```
+3. Run the Project
+   Google Collab
+________________________________________
+## Results
+•	Achieved accurate classification of job-related attributes.
+•	XGBoost and Random Forest models provided the highest prediction accuracies.
+•	Visualizations like confusion matrices helped assess model quality.
 
-3. Run the Project:
-   ```bash
-   python main.py
-   ```
-
-## Conclusion
-This project leverages machine learning and NLP to provide valuable insights into the job market. By predicting job market trends and salary outcomes, it helps HR professionals and job seekers make informed decisions.
